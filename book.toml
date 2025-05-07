@@ -12,7 +12,26 @@ after = ["links"]
 
 [output.html]
 additional-css = ["./src/theme/heti.min.css"]
+[output.html.fold]
+enable = true
+level = 0
 
+[output.html.playground]
+editable = false
+copy-js = true
+line-numbers = false
+
+[output.html.search]
+enable = true
+limit-results = 30
+teaser-word-count = 30
+use-boolean-and = true
+boost-title = 2
+boost-hierarchy = 1
+boost-paragraph = 1
+expand = true
+heading-split-level = 3
+copy-js = true
 
 
 
